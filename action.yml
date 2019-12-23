@@ -1,0 +1,23 @@
+name: 'docker-action-multitag'
+description: build, tag and publish docker images
+author: 'Daniel Richter'
+branding:
+  icon: 'box'
+  color: 'blue'
+inputs:
+  imagename:
+    description: 'Name of the created image'
+    required: true
+  imagetag:
+    description: 'List of tags to apply to image'
+    default: latest
+    required: false
+  dockeruser:
+    description: 'Dockerhub user'
+    required: true
+  dockerpassword:
+    description: 'Dockerhub pasword'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
