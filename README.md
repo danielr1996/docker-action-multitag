@@ -13,7 +13,7 @@ Alternatives:
 ### Build image with latest tag
 ```yaml
 - name: Build
-  uses: danielr199/docker-action-multitag
+  uses: danielr1996/docker-action-multitag@1.0.0
   with:
     imagename: user/image
     dockeruser: ${{ secrets.DOCKER_USERNAME }}
