@@ -24,7 +24,7 @@ Alternatives:
 To populate the environment with a short ref and slug of your branch name use [rlespinasse/github-slug-action](https://github.com/marketplace/actions/github-slug).
 
 ```yaml
-- uses: rlespinasse/github-slug-action@master
+- uses: rlespinasse/github-slug-action@v1.1.x
 - name: Build
   uses: danielr199/docker-action-multitag
   with:
