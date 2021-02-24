@@ -1,5 +1,7 @@
 # Docker Action (Multitag)
 
+> Use https://github.com/docker/build-push-action instead
+
 This action allows you to create, tag and publish a docker image. It also allows to specify 
 multiple tags per image, e.g. `user/image:latest` and `user/image:13.0`.
 
